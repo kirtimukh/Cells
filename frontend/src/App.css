@@ -1,0 +1,82 @@
+.rightClick {
+    z-index: 12;
+    position: fixed;
+    background: rgb(240, 200, 1);
+}
+
+.menuElement {
+    color: #222222;
+    cursor: pointer;
+    padding: 17px 36px;
+}
+
+.menuElement:hover {
+    color: #fff;
+    background: #009688;
+}
+
+/* .CellBlock:hover {
+    filter: drop-shadow(0 0 7px rgba(0, 255, 255));
+} */
+
+.styleOnSelected {
+    filter: drop-shadow(0 0 7px rgb(0, 255, 0));
+}
+
+.styleOnFocus {
+    filter: drop-shadow(0 0 5px rgba(226, 249, 11));
+}
+
+.selectedMatch {
+    filter: drop-shadow(0 0 5px rgba(226, 249, 11));
+}
+
+
+.afterGlowRed {
+    filter: drop-shadow(0 0 5px rgba(203, 67, 53));
+}
+
+.afterGlowBlue {
+    filter: drop-shadow(0 0 5px rgba(46, 134, 193));
+}
+
+.afterGlowGreen {
+    filter: drop-shadow(0 0 5px rgba(40, 180, 99));
+}
+
+.afterGlowSlate {
+    filter: drop-shadow(0 0 5px rgba(46, 64, 83));
+}
+
+.afterGlowWhite {
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255));
+}
+
+.textGradient {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1))
+}
+
+
+@keyframes textSlide {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+.textSlideRight {
+    animation: textSlide 1
+}
+
+.verticalCenter {
+    transform: translate(0, -50%);
+    top: 50%;
+}
+
+.UnL li {
+    margin-top: 1.5px;
+    margin-bottom: 1.5px;
+}

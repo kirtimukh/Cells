@@ -1,0 +1,1 @@
+from .rn_gen import autogen_name

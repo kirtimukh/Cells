@@ -1,0 +1,43 @@
+services:
+  # Using redis for auth
+  redis-auth:
+    image: redis/redis-stack:latest
+    ports:
+    # - outside: inside
+      - 6379:6379
+      - 8001:8001
+    volumes:
+      - ./redis_data:/data/redis-auth
+
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - 8000:8000
+    volumes:
+      - ./backend:/backend
+    depends_on:
+      - redis-auth
+    # environment:
+    #   REDIS_AUTH_HOST: "redis://redis-auth:6379/0"  # redis://<service>:<port>
+    env_file:
+      - backend/.env
+
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+  
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - 3000:3000
+    volumes:
+      - ./frontend/src:/frontend/src
+    env_file:
+      - frontend/.env
+
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+
+volumes:
+  redis_data:

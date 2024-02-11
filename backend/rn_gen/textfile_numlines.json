@@ -1,0 +1,85 @@
+{
+    "numfiles": 20,
+    "linecounts": [
+        {
+            "fname": "typography.txt",
+            "numlines": 43
+        },
+        {
+            "fname": "seasonings.txt",
+            "numlines": 29
+        },
+        {
+            "fname": "algorithms_1.txt",
+            "numlines": 114
+        },
+        {
+            "fname": "sound.txt",
+            "numlines": 18
+        },
+        {
+            "fname": "physics.txt",
+            "numlines": 63
+        },
+        {
+            "fname": "web_development.txt",
+            "numlines": 65
+        },
+        {
+            "fname": "metals.txt",
+            "numlines": 18
+        },
+        {
+            "fname": "colors.txt",
+            "numlines": 75
+        },
+        {
+            "fname": "physics_units.txt",
+            "numlines": 36
+        },
+        {
+            "fname": "astronomy.txt",
+            "numlines": 36
+        },
+        {
+            "fname": "startups.txt",
+            "numlines": 44
+        },
+        {
+            "fname": "algorithms.txt",
+            "numlines": 104
+        },
+        {
+            "fname": "set_theory.txt",
+            "numlines": 16
+        },
+        {
+            "fname": "physics_1.txt",
+            "numlines": 47
+        },
+        {
+            "fname": "linguistics.txt",
+            "numlines": 9
+        },
+        {
+            "fname": "software.txt",
+            "numlines": 20
+        },
+        {
+            "fname": "phones.txt",
+            "numlines": 48
+        },
+        {
+            "fname": "machine_learning.txt",
+            "numlines": 50
+        },
+        {
+            "fname": "physics_optics.txt",
+            "numlines": 20
+        },
+        {
+            "fname": "data_structures.txt",
+            "numlines": 29
+        }
+    ]
+}
